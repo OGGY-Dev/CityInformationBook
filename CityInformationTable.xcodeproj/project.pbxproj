@@ -13,10 +13,12 @@
 		DA5F268B26BA699B00BB4D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F268926BA699B00BB4D75 /* Main.storyboard */; };
 		DA5F268D26BA699C00BB4D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5F268C26BA699C00BB4D75 /* Assets.xcassets */; };
 		DA5F269026BA699C00BB4D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F268E26BA699C00BB4D75 /* LaunchScreen.storyboard */; };
+		DA5F269826BA6B5B00BB4D75 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F269726BA6B5B00BB4D75 /* ViewController2.swift */; };
+		DA5F269A26BA6FFE00BB4D75 /* Sehir.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F269926BA6FFE00BB4D75 /* Sehir.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA5F268026BA699B00BB4D75 /* SehirTanitimKitabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SehirTanitimKitabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5F268026BA699B00BB4D75 /* CityInformationTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityInformationTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5F268326BA699B00BB4D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA5F268526BA699B00BB4D75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA5F268726BA699B00BB4D75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		DA5F268C26BA699C00BB4D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA5F268F26BA699C00BB4D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA5F269126BA699C00BB4D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5F269726BA6B5B00BB4D75 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		DA5F269926BA6FFE00BB4D75 /* Sehir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sehir.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		DA5F267726BA699B00BB4D75 = {
 			isa = PBXGroup;
 			children = (
-				DA5F268226BA699B00BB4D75 /* SehirTanitimKitabi */,
+				DA5F268226BA699B00BB4D75 /* CityInformationTable */,
 				DA5F268126BA699B00BB4D75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +52,33 @@
 		DA5F268126BA699B00BB4D75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA5F268026BA699B00BB4D75 /* SehirTanitimKitabi.app */,
+				DA5F268026BA699B00BB4D75 /* CityInformationTable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA5F268226BA699B00BB4D75 /* SehirTanitimKitabi */ = {
+		DA5F268226BA699B00BB4D75 /* CityInformationTable */ = {
 			isa = PBXGroup;
 			children = (
 				DA5F268326BA699B00BB4D75 /* AppDelegate.swift */,
 				DA5F268526BA699B00BB4D75 /* SceneDelegate.swift */,
 				DA5F268726BA699B00BB4D75 /* ViewController.swift */,
+				DA5F269726BA6B5B00BB4D75 /* ViewController2.swift */,
+				DA5F269926BA6FFE00BB4D75 /* Sehir.swift */,
 				DA5F268926BA699B00BB4D75 /* Main.storyboard */,
 				DA5F268C26BA699C00BB4D75 /* Assets.xcassets */,
 				DA5F268E26BA699C00BB4D75 /* LaunchScreen.storyboard */,
 				DA5F269126BA699C00BB4D75 /* Info.plist */,
 			);
-			path = SehirTanitimKitabi;
+			path = CityInformationTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA5F267F26BA699B00BB4D75 /* SehirTanitimKitabi */ = {
+		DA5F267F26BA699B00BB4D75 /* CityInformationTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA5F269426BA699C00BB4D75 /* Build configuration list for PBXNativeTarget "SehirTanitimKitabi" */;
+			buildConfigurationList = DA5F269426BA699C00BB4D75 /* Build configuration list for PBXNativeTarget "CityInformationTable" */;
 			buildPhases = (
 				DA5F267C26BA699B00BB4D75 /* Sources */,
 				DA5F267D26BA699B00BB4D75 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = SehirTanitimKitabi;
+			name = CityInformationTable;
 			productName = SehirTanitimKitabi;
-			productReference = DA5F268026BA699B00BB4D75 /* SehirTanitimKitabi.app */;
+			productReference = DA5F268026BA699B00BB4D75 /* CityInformationTable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA5F267B26BA699B00BB4D75 /* Build configuration list for PBXProject "SehirTanitimKitabi" */;
+			buildConfigurationList = DA5F267B26BA699B00BB4D75 /* Build configuration list for PBXProject "CityInformationTable" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA5F267F26BA699B00BB4D75 /* SehirTanitimKitabi */,
+				DA5F267F26BA699B00BB4D75 /* CityInformationTable */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5F268826BA699B00BB4D75 /* ViewController.swift in Sources */,
+				DA5F269826BA6B5B00BB4D75 /* ViewController2.swift in Sources */,
 				DA5F268426BA699B00BB4D75 /* AppDelegate.swift in Sources */,
 				DA5F268626BA699B00BB4D75 /* SceneDelegate.swift in Sources */,
+				DA5F269A26BA6FFE00BB4D75 /* Sehir.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PGKAW8D8;
-				INFOPLIST_FILE = SehirTanitimKitabi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CityInformationTable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PGKAW8D8;
-				INFOPLIST_FILE = SehirTanitimKitabi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CityInformationTable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA5F267B26BA699B00BB4D75 /* Build configuration list for PBXProject "SehirTanitimKitabi" */ = {
+		DA5F267B26BA699B00BB4D75 /* Build configuration list for PBXProject "CityInformationTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA5F269226BA699C00BB4D75 /* Debug */,
@@ -331,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA5F269426BA699C00BB4D75 /* Build configuration list for PBXNativeTarget "SehirTanitimKitabi" */ = {
+		DA5F269426BA699C00BB4D75 /* Build configuration list for PBXNativeTarget "CityInformationTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA5F269526BA699C00BB4D75 /* Debug */,
